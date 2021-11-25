@@ -108,6 +108,7 @@ public class CommunicateActivity extends AppCompatActivity {
                 connectionText.setText(R.string.status_connected);
                 toggleButtonOnOff.setEnabled(true);
                 connectButton.setEnabled(true);
+                seekBar.setEnabled(true);
                 connectButton.setText(R.string.disconnect);
                 connectButton.setOnClickListener(v -> viewModel.disconnect());
                 break;
@@ -116,6 +117,7 @@ public class CommunicateActivity extends AppCompatActivity {
                 connectionText.setText(R.string.status_connecting);
                 toggleButtonOnOff.setEnabled(false);
                 connectButton.setEnabled(false);
+                seekBar.setEnabled(false);
                 connectButton.setText(R.string.connect);
                 break;
 
@@ -123,6 +125,7 @@ public class CommunicateActivity extends AppCompatActivity {
                 connectionText.setText(R.string.status_disconnected);
                 toggleButtonOnOff.setEnabled(false);
                 connectButton.setEnabled(true);
+                seekBar.setEnabled(false);
                 connectButton.setText(R.string.connect);
                 connectButton.setOnClickListener(v -> viewModel.connect());
                 break;
