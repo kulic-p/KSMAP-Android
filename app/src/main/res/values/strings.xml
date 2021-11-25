@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">KSMAP - Smart zvlhčovač</string>
+    <string name="messages">Zprávy:</string>
+    <string name="message">Zpráva</string>
+    <string name="send">Odeslat</string>
+    <string name="paired_devices">Spárovaná zařízení:</string>
+    <string name="no_messages">Žádné odeslané zprávy!</string>
+    <string name="no_bluetooth">Bluetooth není k dispozici.</string>
+    <string name="device_name_format">Zařízení: %1$s</string>
+    <string name="status_connecting">Bluetooth: připojování</string>
+    <string name="status_connected">Bluetooth: připojeno</string>
+    <string name="status_disconnected">Bluetooth: odpojeno</string>
+    <string name="humidifier_off">Zvlhčovač: vypnuto</string>
+    <string name="humidifier_on">Zvlhčovač: zapnuto</string>
+    <string name="connect">Připojit</string>
+    <string name="connected">Připojeno</string>
+    <string name="disconnect">Odpojit</string>
+    <string name="connection_failed">Připojení selhalo.</string>
+    <string name="bluetooth_unavailable">Připojení BT selhalo.</string>
+    <string name="message_send_error">Chyba při odesílání zprávy!</string>
+    <string name="you_sent">Ty</string>
+    <string name="temperature">Teplota</string>
+    <string name="temperature_real">Pocitová teplota</string>
+    <string name="humidity">Relativní vlhkost</string>
+    <string name="humidity_limit">Limit relativní vlhkosti</string>
+    <string name="none">---</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+</resources>
